@@ -730,8 +730,6 @@ footer .container-f .mail-input .mail-form .subscribe-button .icon-send{
     display: flex;
     top: 7.5px;
     left: 7.5px;
-    width: 10px;
-    height: 10px;
 }
 
 .modal-window .modal-container .modal-container-button:hover .icon-close{
@@ -741,7 +739,7 @@ footer .container-f .mail-input .mail-form .subscribe-button .icon-send{
     
 }
 
-.modal-window .modal-container .modal-container-button:hover .icon-close{
+.modal-window .modal-container .modal-container-button:focus .icon-close{
     fill: #ffffff;
     position: absolute;
     display: flex;
@@ -784,41 +782,23 @@ footer .container-f .mail-input .mail-form .subscribe-button .icon-send{
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     background-color: transparent;
+    padding-left: 38px;
+    outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border-color: #4D5AE5;
 }
 
-.modal-window .modal-container .modal-container-form .form-div .form-icon .icon-person{
+.modal-window .modal-container .modal-container-form .form-div .form-icon .icon-svg{
     position: absolute;
     display: flex;
     left: 16px;
     top: 50%;
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    width: 18px;
-    height: 24px;
     gap: 4px;
 }
 
-.modal-window .modal-container .modal-container-form .form-div .form-icon .icon-phone{
-    position: absolute;
-    display: flex;
-    left: 16px;
-    top: 8px;
-    width: 18px;
-    height: 24px;
-}
-
-.modal-window .modal-container .modal-container-form .form-div .form-icon .icon-email{
-    position: absolute;
-    display: flex;
-    left: 16px;
-    top: 8px;
-    width: 18px;
-    height: 24px;
-}
-
-.modal-window .modal-container .modal-container-form .form-div .form-icon-input:focus .icon-person{
+.modal-window .modal-container .modal-container-form .form-div .form-icon-input:focus .icon-svg{
     fill: #4D5AE5;
 }
 
@@ -849,6 +829,8 @@ footer .container-f .mail-input .mail-form .subscribe-button .icon-send{
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     background-color: transparent;
+    padding: 8px 16px;
+    outline: transparent;
     resize: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -902,15 +884,9 @@ footer .container-f .mail-input .mail-form .subscribe-button .icon-send{
 
 .modal-window .modal-container .modal-container-form .check-div .visually-hidden:checked .privacy-policy-box{
     border: none;
+    background-color: #404bbf;
     fill: #F4F4FD;
     margin-right: 24px;
-}
-
-.modal-window .modal-container .modal-container-form .check-div .check-label .privacy-policy-box .icon-checkmark{
-   
-   width:16px ;
-   height: 16px;
-
 }
 
 .modal-window .modal-container .modal-container-form .check-div .check-label .privacy-policy-connect{

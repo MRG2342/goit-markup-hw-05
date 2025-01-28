@@ -844,7 +844,6 @@ footer .container-f .mail-input .mail-form .subscribe-button .icon-send{
 
 .modal-window .modal-container .modal-container-form .check-div{
     margin-bottom: 24px;
-    
 }
 
 .modal-window .modal-container .modal-container-form .check-div .check-label{
@@ -885,7 +884,7 @@ footer .container-f .mail-input .mail-form .subscribe-button .icon-send{
     left: 24px;
 }
 
-.modal-window .modal-container .modal-container-form .check-div .visually-hidden:checked + span.privacy-policy-box{
+.modal-window .modal-container .modal-container-form .check-div .visually-hidden:checked + label.check-label span.privacy-policy-box{
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
